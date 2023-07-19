@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoURI = "mongodb+srv://CraveNow:jbgp54312@cluster0.gs1vvll.mongodb.net/CraveNow?retryWrites=true&w=majority"
+const mongoURI = "mongodb+srv://CraveNow:<password>@cluster0.gs1vvll.mongodb.net/CraveNow?retryWrites=true&w=majority"
 const mongoDB = async () => {
     try {
       await mongoose.connect(mongoURI);
